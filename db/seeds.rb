@@ -13,4 +13,4 @@ be2311 = Cohort.create(name:"BE2311", active:true, length: 7)
 fe2311 = Cohort.create(name:"FE2311", active:true, length: 7)
 launch2310 = Cohort.create(name:"Launch2310", active:false, length: 9)
 
-
+faisal = be2311.students.create(name:"Faisal", age:24, enrolled:true)

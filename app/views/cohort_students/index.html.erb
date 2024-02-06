@@ -1,0 +1,10 @@
+<h1>Cohort_Students</h1>
+
+
+<% @students.each do |student| %>
+    <P>name   <%= student.name %></p>
+    <P>age    <%= student.age %></p>
+    <P>currently_active   <%= student.enrolled %></p>
+    <P>cohort_id   <%= student.cohort_id %></p>
+
+<% end %>
